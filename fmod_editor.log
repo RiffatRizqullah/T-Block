@@ -1,0 +1,35 @@
+[LOG] FMOD_System_Create                       : Header version = 2.03.14. Current version = 2.03.14.
+[LOG] system_create                            : Header version = 2.03.14. Current version = 2.03.14.
+[LOG] SystemI::setOutputInternal               : Setting output to 'FMOD PulseAudio Output'
+[LOG] Manager::init                            : maxchannels = 256 studioflags = 00000006 flags 00000000 extradriverdata (nil).
+[LOG] SystemI::init                            : Initialize version=20314 (164239), maxchannels=256, flags=0x00020000
+[LOG] OutputPulseAudio::PulseAudio_RegisterLib : Loaded PulseAudio version 17.0.0.
+[LOG] PulseAudio_EnumOutputCallback            : Found output device NAME:alsa_output.pci-0000_05_00.1.pro-output-3 DESC:Raven/Raven2/Fenghuang HDMI/DP Audio Controller Pro CHANNELS:8 RATE:48000.
+[LOG] PulseAudio_EnumOutputCallback            : Found output device NAME:alsa_output.pci-0000_05_00.1.pro-output-7 DESC:Raven/Raven2/Fenghuang HDMI/DP Audio Controller Pro 7 CHANNELS:8 RATE:48000.
+[LOG] PulseAudio_EnumOutputCallback            : Found output device NAME:alsa_output.pci-0000_05_00.1.pro-output-8 DESC:Raven/Raven2/Fenghuang HDMI/DP Audio Controller Pro 8 CHANNELS:8 RATE:48000.
+[LOG] PulseAudio_EnumOutputCallback            : Found output device NAME:alsa_output.pci-0000_05_00.6.analog-stereo DESC:Ryzen HD Audio Controller Analog Stereo CHANNELS:2 RATE:48000.
+[LOG] PulseAudio_EnumOutputCallback            : Found output device NAME:easyeffects_sink DESC:Easy Effects Sink CHANNELS:2 RATE:48000.
+[LOG] PulseAudio_EnumInputCallback             : Found input device NAME:alsa_output.pci-0000_05_00.1.pro-output-3.monitor DESC:Monitor of Raven/Raven2/Fenghuang HDMI/DP Audio Controller Pro CHANNELS:8 RATE:48000.
+[LOG] PulseAudio_EnumInputCallback             : Found input device NAME:alsa_output.pci-0000_05_00.1.pro-output-7.monitor DESC:Monitor of Raven/Raven2/Fenghuang HDMI/DP Audio Controller Pro 7 CHANNELS:8 RATE:48000.
+[LOG] PulseAudio_EnumInputCallback             : Found input device NAME:alsa_output.pci-0000_05_00.1.pro-output-8.monitor DESC:Monitor of Raven/Raven2/Fenghuang HDMI/DP Audio Controller Pro 8 CHANNELS:8 RATE:48000.
+[LOG] PulseAudio_EnumInputCallback             : Found input device NAME:alsa_output.pci-0000_05_00.6.analog-stereo.monitor DESC:Monitor of Ryzen HD Audio Controller Analog Stereo CHANNELS:2 RATE:48000.
+[LOG] PulseAudio_EnumInputCallback             : Found input device NAME:alsa_input.pci-0000_05_00.6.analog-stereo DESC:Ryzen HD Audio Controller Analog Stereo CHANNELS:2 RATE:48000.
+[LOG] PulseAudio_EnumInputCallback             : Found input device NAME:easyeffects_sink.monitor DESC:Monitor of Easy Effects Sink CHANNELS:2 RATE:48000.
+[LOG] PulseAudio_EnumInputCallback             : Found input device NAME:easyeffects_source DESC:Easy Effects Source CHANNELS:2 RATE:48000.
+[LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 0
+[LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
+[LOG] AsyncManager::init                       : manager 0x563d247a7ec8 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : done
+[LOG] PlaybackSystem::init                     : 
+[LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
+[LOG] PlaybackSystem::init                     : done
+[LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
+[LOG] Manager::init                            : done.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] SystemI::closeInternal                   : Closed.
