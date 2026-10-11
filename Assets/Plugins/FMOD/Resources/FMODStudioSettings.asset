@@ -307,8 +307,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../../../../../home/rizqullah/Documents/BoundaryAlert/BoundaryAlert.fspro
-  sourceBankPath: ../../../../../home/rizqullah/Documents/BoundaryAlert/Build
+  sourceProjectPath: C:/Users/Kino/Documents/BoundaryAlert/BoundaryAlert.fspro
+  sourceBankPath: C:/Users/Kino/Documents/BoundaryAlert/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -330,10 +330,8 @@ MonoBehaviour:
   VirtualChannelSettings: []
   RealChannelSettings: []
   Plugins: []
-  MasterBanks:
-  - TBlockMusic
-  Banks:
-  - TBlockSFX
+  MasterBanks: []
+  Banks: []
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
