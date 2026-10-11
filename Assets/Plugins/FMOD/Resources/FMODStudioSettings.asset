@@ -330,8 +330,10 @@ MonoBehaviour:
   VirtualChannelSettings: []
   RealChannelSettings: []
   Plugins: []
-  MasterBanks: []
-  Banks: []
+  MasterBanks:
+  - TBlockMusic
+  Banks:
+  - TBlockSFX
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0

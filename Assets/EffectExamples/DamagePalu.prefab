@@ -4906,7 +4906,7 @@ GameObject:
   - component: {fileID: 2383136243104854794}
   - component: {fileID: 7255551486648733043}
   - component: {fileID: 6464518257655674137}
-  - component: {fileID: -3117125504804986452}
+  - component: {fileID: 4587180268438829665}
   m_Layer: 0
   m_Name: DamagePalu
   m_TagString: Untagged
@@ -9804,7 +9804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DecalDestroyer
   lifeTime: 2
---- !u!114 &-3117125504804986452
+--- !u!114 &4587180268438829665
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9813,25 +9813,35 @@ MonoBehaviour:
   m_GameObject: {fileID: 5617071592861714326}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c4efaf76e54c624188f2bb5894f47b1, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
-  CollisionTag: 
-  EventReference:
+  m_EditorClassIdentifier: Assembly-CSharp::FMODAudioSource
+  soundEvent:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  Event: 
-  EventPlayTrigger: 0
-  EventStopTrigger: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: -1
-  OverrideMaxDistance: -1
+      Data1: -445500776
+      Data2: 1320593822
+      Data3: -900193384
+      Data4: 278300133
+    Path: event:/Damage
+  playOnAwake: 1
+  loop: 0
+  mute: 0
+  volume: 1
+  pitch: 1
+  spatialBlend: 1
+  minDistance: 1
+  maxDistance: 20
+  panStereo: 0
+  priority: 128
+  allowFadeout: 1
+  overrideAttenuation: 0
+  preload: 0
+  stopOnDisable: 1
+  busPath: 
+  startParams: []
+  bypassEffects: 0
+  bypassListenerEffects: 0
+  bypassReverbZones: 0
+  dopplerLevel: 1
+  spread: 0
+  reverbZoneMix: 1

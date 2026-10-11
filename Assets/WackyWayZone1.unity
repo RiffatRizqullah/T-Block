@@ -16246,7 +16246,6 @@ GameObject:
   - component: {fileID: 1456949239}
   - component: {fileID: 1456949238}
   - component: {fileID: 1456949237}
-  - component: {fileID: 1456949240}
   - component: {fileID: 1456949241}
   m_Layer: 0
   m_Name: Music
@@ -16277,7 +16276,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1456949234}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5e5a86ba0e241494b9a0f5bc75d641b7, type: 3}
   m_Name: 
@@ -16380,7 +16379,7 @@ PlayableDirector:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1456949234}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: ade3668745f936649995fb3119926c07, type: 2}
   m_InitialState: 0
@@ -16410,37 +16409,6 @@ PlayableDirector:
     value: {fileID: 1456949238}
   m_ExposedReferences:
     m_References: []
---- !u!114 &1456949240
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1456949234}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 1401654005
-      Data2: 1114112755
-      Data3: -1609326454
-      Data4: 1103549928
-    Path: event:/WackyWayZone
-  Event: 
-  EventPlayTrigger: 11
-  EventStopTrigger: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  NonRigidbodyVelocity: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!114 &1456949241
 MonoBehaviour:
   m_ObjectHideFlags: 0

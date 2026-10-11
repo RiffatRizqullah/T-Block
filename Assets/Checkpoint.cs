@@ -6,7 +6,7 @@ public class Checkpoint : MonoBehaviour
     public Transform pole;
     public Transform SpawnPoint;
     [SerializeField] int CheckpointID;
-    [SerializeField] AudioSource src;
+    [SerializeField] FMODAudioSource src;
     public Collider collider;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -24,7 +24,7 @@ public class Checkpoint : MonoBehaviour
         if(other.gameObject.tag == "Player")
         {
             collider.enabled = false;
-            src.PlayOneShot(src.clip);
+            src.PlayOneShot();
             pole.DOLocalMoveY(1, 1);
             Manager.instance.SetCheckpoint(CheckpointID);
         }
